@@ -1,0 +1,8 @@
+A partir de observações em outros exp, da região de erro critica, percebi algo interessante. O efeito de uma pequena variação no iapp é vastamente diferente dependendod do parametro w0, como monstra figs1. 
+
+Objetivo:
+    -> Encontrar uma forma de reduzir o erro nessa região.
+    
+Metodologia
+    -> ?
+    -> Foi observado que por um erro de implementação, c2, tem menos dado que o esperado, isso foi corrigido, vamos observar os resultados.

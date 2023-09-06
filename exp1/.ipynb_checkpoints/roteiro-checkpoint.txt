@@ -1,0 +1,17 @@
+Objetivos
+
+->Responder:
+    As constraint PINNs estão trazendo melhora?
+    A  constraint de dado 2 esta trazendo mehlora?
+
+
+Metodologia
+    ->Fixandos todo os demais paramêtros  (batch sizes de 4000 para física e 3000 para dados), network 100x10
+    -> Fazer experimentos, com todas as constraints, depois remover as pinns, depois remover a c2
+    
+    
+resultexp1 contem os resultados:
+
+
+O erro combinando data e psycs ficou bem visivelmente menor que somente com data. O erro com ambos datasets de treino tambem ficou menor que so para 1. 
+

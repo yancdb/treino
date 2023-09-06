@@ -1,0 +1,22 @@
+Estabelecendo as constraint ideais no exp1, determinar agora qual o tamanho da rede ideal e o tamanho dos batch de treinamento.
+
+Objetivo
+     Determinar o efeito do tamanho do batch de treinamento no resultado final.
+     Responder:
+     ->Qual o tamanho de batch size ideal para cada constraint (dado e física)
+     ->Qual o efeito de aumentar ou diminuir o batch size
+
+
+Metodologia
+    ->Começando com os paramêtros do exp1 (todas as constraints) com 4k de batch size em todas. (n=1)
+    ->Avaliar o efeito de ao mesmo tempo dobrar e cortar pela metade os batch size.(n=2)
+    
+
+    
+    
+    
+Resultados
+
+run com 2,4 e 1k feitas
+
+resultados para 4k bem ruins, ideal parece estar entre 2 e 4k

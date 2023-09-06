@@ -1,0 +1,28 @@
+A partir de observações em outros exp, da região de erro critica, percebi algo interessante. O efeito de uma pequena variação no iapp é vastamente diferente dependendod do parametro w0, como monstra figs1. 
+
+Objetivo:
+    -> Encontrar uma forma de reduzir o erro nessa região.
+    
+Metodologia
+      -> Foi observado que por um erro de implementação, c2, tem menos dado que o esperado, isso foi corrigido, vamos observar os resultados. Não influnciou, o problema          apenas reduzia o tamanho de c2 em 4
+      -> Tentando comprovar se a rede pode assumir o formato desejado, tentar em um cenario com abundancia de dados, e mesmo dados de treino e validação verificar se obtemos um fit "perfeito". A
+      
+
+
+A:
+   E1
+   Data set de treino
+           c1 fator 1, 10 pontos de U0, 20 pontos de W0, 10 pontos de I0
+           c2 fator 1 1000 runs de 50 t
+           500k steps   
+    Resultados mostram um fit melhor nessa região, mas ainda assim bem ruim...
+    
+    E2
+    Data set de treino
+           Sera que fator precisa ser 1? tentando voltar para 25 antes de prosseguir.
+           500k steps   
+    Resultados muito proximos obtidos com fator 25!
+    
+
+B:
+    Adicionando uma constriant c3 de pontos apenas na região
